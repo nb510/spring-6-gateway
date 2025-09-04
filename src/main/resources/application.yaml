@@ -8,7 +8,7 @@ spring:
     gateway:
       routes:
         - id: spring-6-rest-mvc
-          uri: http://localhost:8084
+          uri: http://localhost:8081
           predicates:
             - Path=/api/v1/**
         - id: spring-6-reactive
